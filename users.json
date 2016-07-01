@@ -1,0 +1,36 @@
+{
+    "users":[
+        {
+            "name":"grufkork",
+            "password":"SocketGame88!"
+        },
+        {
+            "name":"khaled",
+            "password":"spelaspel"
+        },
+        {
+            "name":"xtella",
+            "password":"KisseKatt05!"
+        },
+	{
+	    "name":"musis",
+	    "password":"leverpastej"
+	},
+	{
+	    "name":"jeprin",
+	    "password":"jesper44"
+	},
+	{
+	    "name":"fusklapp3",
+	    "password":"burk"
+	},
+	{
+	    "name":"bennablixten",
+	    "password":"rumpa"
+	},
+	{
+	    "name":"camis5",
+	    "password":"nej"
+	}
+    ]
+}

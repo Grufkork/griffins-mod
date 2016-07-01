@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://cdn.socket.io/socket.io-1.4.5.js"></script>
+        <style type="text/css">
+            #canvas{
+                display:none;
+                margin:0px;
+                padding:0px;
+            }
+            #connectDiv{
+                width:50%;
+                margin:auto;
+                margin-top:25%;
+                text-align:center;
+            }
+            body{
+                margin:0px;
+                padding:0px;
+            }
+            #connect{
+                background:lime;
+                border-radius:5px;
+                width:20em;
+                height:3em;
+                text-align:center;
+                border:2px solid gray;
+            }
+            #disconnect{
+                position:fixed;
+                top:0px;
+                right:0px;
+                border:1px solid black;
+                border-bottom-left-radius:5px;
+                background-color:red;
+                font-size:2em;
+                display:none;
+            }
+            #name, #password{
+                border-radius:5px;
+                font-size:2em;
+                height:1em;
+                width:100%;
+                text-align:center;
+                border:2px solid gray;
+            }
+            
+        </style>
+        <title>
+            A simple socket.io game
+        </title>
+    </head>
+        
+        <body onresize="resize()">
+            <meta charset="UTF-8">
+            <canvas id="canvas" tabindex="0"></canvas>
+            <button id = "disconnect">Disconnect</button>
+            <div id="connectDiv">
+                <input type="text" id="name" placeholder="Username"/><br><br>
+                <input type="password" id="password" placeholder="Password"/><br><br><br>
+                <button id="connect">Connect</button>
+            </div>
+        </body>
+
+        <script src="./javascript.js">
+        </script>
+</html>
